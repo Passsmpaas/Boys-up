@@ -65,7 +65,10 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="👨‍💻 🌐 OWNER ID 🌐", url="https://t.me/Strangerboy27_bot_strangerboy"),
             InlineKeyboardButton(text="🛠️ GROUP 🙋‍♂️", url="https://t.me/+aBB53vou0Z5hZWI1"),
+        ],
+        [
             InlineKeyboardButton(text="💠 CRUSH 💠", url="https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg"),
+        ],[
             InlineKeyboardButton(text=" 💠 INSTAGRAM🙋‍♂️💠", url="https://www.instagram.com/reel/DKfu0A0tSHO/?igsh=MzRlODBiNWFlZA=="),
         ],
     ]
@@ -74,6 +77,10 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
+    "https://envs.sh/wt.jpg",
+    "https://envs.sh/wu.jpg",
+    "https://envs.sh/w2.jpg",
+    "https://envs.sh/wd.jpg",
     "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
     "https://i.ibb.co/0p3pmkwn/Angel.jpg",
     "https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg",
@@ -378,6 +385,13 @@ async def start(bot, m: Message):
         await asyncio.sleep(2)
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
+            f"╭━━━━━━ ₹🌐STRANGER🙋‍♂️💠 ━━━━━━➣\n"
+            f"┣⪼ 🔄 System Status:\n"
+            f"┃  ├─⪼ ✅ Security verified\n"
+            f"┃  ├─⪼ ✅ Data synced\n"
+            f"┃  ╰─⪼ 🔍 Checking access...\n"
+            f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+            f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
            f"𝓨𝓸𝓾 𝓬𝓪𝓷 𝓱𝓪𝓿𝓮 𝓪𝓬𝓬𝓮𝓼𝓼 𝓽𝓸 𝓭𝓸𝔀𝓷𝓵𝓸𝓪𝓭 𝓪𝓵𝓵 𝓝𝓸𝓷-𝓓𝓡𝓜+𝓐𝓔𝓢 𝓔𝓷𝓬𝓻𝔂𝓹𝓽𝓮𝓭 𝓤𝓡𝓛𝓼 🔐 𝓲𝓷𝓬𝓵𝓾𝓭𝓲𝓷𝓰\n\n"
            f"Use Command : /help to get started 🌟\n\n"
            f"╭━━━━━━ FREE USER ━━━━━━➣\n"
@@ -406,6 +420,15 @@ async def id_command(client, message: Message):
     chat_id = message.chat.id
     await message.reply_text(
         f" 🎉 Welcome {message.from_user.first_name} to DRM Bot! 🎉\n\n"
+        f"╭━━━━━━ ₹🌐STRANGER🙋‍♂️💠 ━━━━━━➣\n"
+        f"━━━━\n"
+            f"┣⪼ 🔄 System Status:\n"
+            f"┃  ├─⪼ ✅ Security verified\n"
+            f"┃  ├─⪼ ✅ Data synced\n"
+            f"┃  ╰─⪼ 🔍 Checking access...\n"
+            f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+        f"━━━━\n"
+        f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
            f"𝓨𝓸𝓾 𝓬𝓪𝓷 𝓱𝓪𝓿𝓮 𝓪𝓬𝓬𝓮𝓼𝓼 𝓽𝓸 𝓭𝓸𝔀𝓷𝓵𝓸𝓪𝓭 𝓪𝓵𝓵 𝓝𝓸𝓷-𝓓𝓡𝓜+𝓐𝓔𝓢 𝓔𝓷𝓬𝓻𝔂𝓹𝓽𝓮𝓭 𝓤𝓡𝓛𝓼 🔐 𝓲𝓷𝓬𝓵𝓾𝓭𝓲𝓷𝓰\n\n"
            f"Use Command : /help to get started 🌟\n\n"
            f"╭━━━━━━ FREE USER ━━━━━━➣\n"
