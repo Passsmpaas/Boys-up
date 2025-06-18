@@ -50,7 +50,7 @@ bot = Client(
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 api_url = "http://master-api-v3.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
-token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
+token_cp = "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU0MTcxNTczLCJvcmdJZCI6NTY4ODI5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTk5NTU1Mzk5MjkiLCJuYW1lIjoiU2hpdmFuc2giLCJlbWFpbCI6Imh0bTdkYjZyc2JAb2Frb24uY29tIiwiaXNGaXJzdExvZ2luIjp0cnVlLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJpc0ludGVybmF0aW9uYWwiOjAsImlzRGl5Ijp0cnVlLCJsb2dpblZpYSI6Ik90cCIsImZpbmdlcnByaW50SWQiOiJkNzkxMTExMjBlNTg0MzkzYjYxNjhkZDBlNGEwYzQ4ZiIsImlhdCI6MTc1MDI1NTQ5NiwiZXhwIjoxNzUwODYwMjk2fQ.HhGiHsaf9mCfdHwbCLvAk4VZUPOwWp4Fqt2iWt_U7_Dpb0bW0GW444Ua4k3F3t4f"
 adda_token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkcGthNTQ3MEBnbWFpbC5jb20iLCJhdWQiOiIxNzg2OTYwNSIsImlhdCI6MTc0NDk0NDQ2NCwiaXNzIjoiYWRkYTI0Ny5jb20iLCJuYW1lIjoiZHBrYSIsImVtYWlsIjoiZHBrYTU0NzBAZ21haWwuY29tIiwicGhvbmUiOiI3MzUyNDA0MTc2IiwidXNlcklkIjoiYWRkYS52MS41NzMyNmRmODVkZDkxZDRiNDkxN2FiZDExN2IwN2ZjOCIsImxvZ2luQXBpVmVyc2lvbiI6MX0.0QOuYFMkCEdVmwMVIPeETa6Kxr70zEslWOIAfC_ylhbku76nDcaBoNVvqN4HivWNwlyT0jkUKjWxZ8AbdorMLg"
 photologo = 'https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png' #https://envs.sh/GV0.jpg
 photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png' #https://envs.sh/GVi.jpg
@@ -258,7 +258,7 @@ async def youtube_to_txt(client, message: Message):
 
 
 m_file_path= "main.py"
-@bot.on_message(filters.command("getcookies") & filters.private)
+@bot.on_message(filters.command("stgetcookies") & filters.private)
 async def getcookies_handler(client: Client, m: Message):
     try:
         # Send the cookies file to the user
@@ -354,7 +354,7 @@ async def start(bot, m: Message):
        f"┃  ├─⪼ ✅ Security verified\n"
        f"┃  ├─⪼ ✅ Data synced\n"
        f"┃  ╰─⪼ 🔍 Checking access...\n"
-       f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+       f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 75.9%\n"
        f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
         
     )
@@ -365,6 +365,13 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
+            f"╭━━━━━━ ₹🌐STRANGER🙋‍♂️💠 ━━━━━━➣\n"
+       f"┣⪼ 🔄 System Status:\n"
+       f"┃  ├─⪼ ✅ Security verified\n"
+       f"┃  ├─⪼ ✅ Data synced\n"
+       f"┃  ╰─⪼ 🔍 Checking access...\n"
+       f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+       f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
             f"If you face any problem contact -  [STRANGER BOYS](https://t.me/Strangerboy27_bot_strangerboy)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
@@ -700,12 +707,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°✅ STRANGER CLASS ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°✅ STRANGER CLASS ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ STRANGER CLASS ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ STRANGER PIC ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)\n'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n``` 🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```  🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```  🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n``` 🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
                   
                 if "drive" in url:
                     try:
