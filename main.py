@@ -730,10 +730,10 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n``` 🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```  🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```  🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n``` 🎉 CAREWILL SELLING ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```🎉 CAREWILL SELl ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n``` 🎉 CAREWILL SELL⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n``` 🎉 CAREWILL SELL ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```🎉 CAREWILL SELL ⚠️\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
                 ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
                 cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
                   
