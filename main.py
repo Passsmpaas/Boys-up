@@ -440,6 +440,7 @@ async def id_command(client, message: Message):
            f"┣⪼ ⚠️ Access Restricted\n"
            f"┣⪼ 📝 Status: Free User\n"
            f"┣⪼ 👨‍💻Login tg number ━➣ Get Aurth\n"
+           f"┣⪼ 📱Login tg number ━➣📱whatsapp number\n"
            f"┣⪼ ❌ Downloads: Not Available\n"
            f"┃\n"
            f"┣⪼ 💡 To Download Videos:\n"
@@ -488,7 +489,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 🔶️🔹️💠[STRANGER BOTS](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠🔹️🔶️\n"
+        f" 💠[STRANGER BOTS](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
@@ -510,7 +511,9 @@ async def txt_handler(client: Client, m: Message):
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
         f"┣⪼👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
-        f"┣⪼ /addauth xxxx – Add User ID\n" 
+        f"┣⪼ /addauth xxxx├─⪼ Add User telegram number\n"
+        f"┣⪼              ├─⪼ 📱whatsapp 📞number\n"
+        f"┣⪼              ╰─⪼ 🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
         f"┣⪼ /rmauth xxxx – Remove User ID\n"  
         f"┣⪼ /users – Total User List\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
@@ -737,12 +740,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```CAREWILL SELl\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```CAREWILL SELL\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```CAREWILL SELL\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```CAREWILL SELL\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\n```\nExtracted by ➤ [{CR}](6211331531)\n'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°✅ STRANGER BOTS VIDEO ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)```\n'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°✅ STRANGER BOTS PDF ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)```\n'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ STRANGER zip ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)```\n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ STRANGER pic ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)```\n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)```\n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)```\n'
                   
                 if "drive" in url:
                     try:
