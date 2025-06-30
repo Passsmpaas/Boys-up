@@ -265,7 +265,7 @@ async def youtube_to_txt(client, message: Message):
 
 
 m_file_path= "main.py"
-@bot.on_message(filters.command("stgetcookies") & filters.private)
+@bot.on_message(filters.command("rjgetcookies") & filters.private)
 async def getcookies_handler(client: Client, m: Message):
     try:
         # Send the cookies file to the user
@@ -276,7 +276,7 @@ async def getcookies_handler(client: Client, m: Message):
         )
     except Exception as e:
         await m.reply_text(f"⚠️ An error occurred: {str(e)}")     
-@bot.on_message(filters.command("mfile") & filters.private)
+@bot.on_message(filters.command("rjmfile") & filters.private)
 async def getcookies_handler(client: Client, m: Message):
     try:
         await client.send_document(
