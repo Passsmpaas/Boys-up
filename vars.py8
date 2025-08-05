@@ -16,9 +16,9 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 OWNER = int(environ.get("OWNER", "7678862761"))
 
-CREDIT = "STRANGER BOY"
+CREDIT = "𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️"
 
-LOG_CHANNEL = "" # log group me bot ko admin narur banaye full rights ke sath
+LOG_CHANNEL = "-1002743508577" # log group me bot ko admin narur banaye full rights ke sath
 
 #WEBHOOK = True  # Don't change this
 
