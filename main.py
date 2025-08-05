@@ -778,7 +778,7 @@ async def txt_handler(bot: Client, m: Message):
                                     with open(f'{name}.pdf', 'wb') as file:
                                         file.write(response.content)
                                     await asyncio.sleep(retry_delay)  # Optional, to prevent spamming
-                                    copy = await bot.send_document(chat_id=channel_id, document=f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf', caption=cc1)
+                                    copy = await bot.send_document(chat_id=channel_id, document=f'{name}.pdf', caption=cc1)
                                     count += 1
                                     os.remove(f'{name}.pdf')
                                     success = True
