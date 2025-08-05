@@ -858,7 +858,7 @@ async def txt_handler(bot: Client, m: Message):
                     await asyncio.sleep(1)  
                     continue  
 
-                elif 'drmcdni' in url or 'drm/wv' in url:tvv dvcvcdcvx
+                elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"__**-┈━═.•°𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️°•.═━┈-**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
