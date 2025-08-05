@@ -89,8 +89,6 @@ async def progress_bar(current, total, reply, start):
             remaining_length = bar_length - completed_length
 
             symbol_pairs = [
-                ("◾️", "◽️"),
-                ("⚫️", "⚪️"),
                 ("🔴", "🔵")
             ]
             chosen_pair = random.choice(symbol_pairs)
@@ -99,6 +97,7 @@ async def progress_bar(current, total, reply, start):
             progress_bar = completed_symbol * completed_length + remaining_symbol * remaining_length
             
             try:
-                await reply.edit (f'`🦋⃪꯭ ─‌⃛┼ 𝞄⃕𝖋𝖋 समय यात्री Sᴛʀᴀɴɢᴇʀ ʙᴏʏs THE BOYS🥵⃝⃝ᬽ꯭ ⃪꯭ \n🙆‍♂️ {progress_bar}\n├👩‍🎓 Progress ➤ | {perc} |\n├👀 Speed ➤ | {sp} |\n├💗 Processed ➤ | {cur} |\n├💬 Size ➤ | {tot} |\n├💢 ETA ➤ | {eta} |\n🦋 Sᴛʀᴀɴɢᴇʀ ʙᴏʏs THE BOYS🥵⃝⃝ᬽ꯭ ⃪꯭ on`')
+                await reply.edit (f'`𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️\n🙆‍♂️ {progress_bar}\n├👩‍🎓 Progress ➤ | {perc} |\n├👀 Speed ➤ | {sp} |\n├💗 Processed ➤ | {cur} |\n├💬 Size ➤ | {tot} |\n├💢 ETA ➤ | {eta} |\n𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️`')
             except FloodWait as e:
                 time.sleep(e.x)
+
