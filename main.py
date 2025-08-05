@@ -372,7 +372,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"╭━━━ ₹🌐STRANGER🙋‍♂️💠 ━━━━➣\n"
+            f"╭━━━ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️ ━━━━➣\n"
             f"┣⪼ 🔄 System Status:\n"
             f"┃  ├─⪼ ✅ Security verified\n"
             f"┃  ├─⪼ ✅ Data synced\n"
@@ -380,13 +380,13 @@ async def start(bot, m: Message):
             f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
             f"├─⪼ 😶‍🌫️ Gems मिटाए 🤯\n"
             f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
-            f"If you face any problem contact -  [STRANGER BOYS](https://t.me/Strangerboy27_bot_strangerboy)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
-            f"╭━━━₹🌐STRANGER🙋‍♂️💠━━━━➣\n"
+            f"╭━━━𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️━━━━➣\n"
             f"┣⪼ 🔄 System Status:\n"
             f"┃  ├─⪼ ✅ Security verified\n"
             f"┃  ├─⪼ ✅ Data synced\n"
@@ -401,13 +401,13 @@ async def start(bot, m: Message):
            f"┣⪼ ⚠️ Access Restricted\n"
            f"┣⪼ 📝 Status: Free User\n"
            f"┣⪼ 👨‍💻Login tg number ━➣ Get Aurth\n"
-           f"┣⪼ 📱Login tg number ━➣📱whatsapp number\n"
+           f"┣⪼ 📱Login tg number ━➣📱 number\n"
            f"┣⪼ ❌ Downloads: Not Available\n"
            f"┃\n"
            f"┣⪼ 💡 To Download Videos:\n"
            f"┃  ├─⪼ 🌟 Purchase Premium Plan\n"
            f"┃  ├─⪼ 📞 Contact Admin\n"
-           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n"
            f"┃\n"
            f"┣⪼ ✨ Benefits:\n"
            f"┃  ├─⪼ 🚀 Instant Downloads\n"
@@ -426,7 +426,7 @@ async def id_command(client, message: Message):
     chat_id = message.chat.id
     await message.reply_text(
         f" 🎉 Welcome {message.from_user.first_name} to DRM Bot! 🎉\n\n"
-        f"╭━━━₹🌐STRANGER🙋‍♂️💠━━━━━➣\n"
+        f"╭━━━𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️━━━━━➣\n"
         f"┣⪼ 🔄 System Status:\n"
         f"┃  ├─⪼ ✅ Security verified\n"
         f"┃  ├─⪼ ✅ Data synced\n"
@@ -447,7 +447,7 @@ async def id_command(client, message: Message):
            f"┣⪼ 💡 To Download Videos:\n"
            f"┃  ├─⪼ 🌟 Purchase Premium Plan\n"
            f"┃  ├─⪼ 📞 Contact Admin\n"
-           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n"
            f"┃\n"
            f"┣⪼ ✨ Benefits:\n"
            f"┃  ├─⪼ 🚀 Instant Downloads\n"
@@ -490,7 +490,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 💠[STRANGER BOTS](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠\n"
+        f" 💠[𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️]()💠\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
@@ -514,7 +514,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
         f"┣⪼ /addauth xxxx -Add User telegram number\n"
         f"┣⪼/addauth xxxx -📱whatsapp 📞number\n"
-        f"┣⪼🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+        f"┣⪼🤖 B0T OWNER ━➣ [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n"
         f"┣⪼ /rmauth xxxx – Remove User ID\n"  
         f"┣⪼ /users – Total User List\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
@@ -525,7 +525,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼• Supports batch processing\n\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [STRANGER BOY](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️]() 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -777,9 +777,9 @@ async def txt_handler(bot: Client, m: Message):
                                     with open(f'{name}.pdf', 'wb') as file:
                                         file.write(response.content)
                                     await asyncio.sleep(retry_delay)  # Optional, to prevent spamming
-                                    copy = await bot.send_document(chat_id=channel_id, document=f'{name}.pdf', caption=cc1)
+                                    copy = await bot.send_document(chat_id=channel_id, document=f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf', caption=cc1)
                                     count += 1
-                                    os.remove(f'{name}.pdf')
+                                    os.remove(f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf')
                                     success = True
                                     break  # Exit the retry loop if successful
                                 else:
@@ -801,7 +801,7 @@ async def txt_handler(bot: Client, m: Message):
                             os.system(download_cmd)
                             copy = await bot.send_document(chat_id=channel_id, document=f'{name}.pdf', caption=cc1)
                             count += 1
-                            os.remove(f'{name}.pdf')
+                            os.remove(f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf')
                         except FloodWait as e:
                             await m.reply_text(str(e))
                             time.sleep(e.x)
@@ -812,7 +812,7 @@ async def txt_handler(bot: Client, m: Message):
                         await helper.pdf_download(f"{api_url}utkash-ws?url={url}&authorization={api_token}",f"{name}.html")
                         time.sleep(1)
                         await bot.send_document(chat_id=channel_id, document=f"{name}.html", caption=cchtml)
-                        os.remove(f'{name}.html')
+                        os.remove(f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.html')
                         count += 1
                     except FloodWait as e:
                         await m.reply_text(str(e))
@@ -848,7 +848,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue    
                     
                 elif 'encrypted.m' in url:    
-                    Show = f"__**-┈━═.•°💠 STRANGE Downloader 💠°•.═━┈-**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
+                    Show = f"__**-┈━═.•°𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️°•.═━┈-**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -858,8 +858,8 @@ async def txt_handler(bot: Client, m: Message):
                     await asyncio.sleep(1)  
                     continue  
 
-                elif 'drmcdni' in url or 'drm/wv' in url:
-                    Show = f"__**-┈━═.•°🌐 THE BOYS Downloader 🌐°•.═━┈-**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
+                elif 'drmcdni' in url or 'drm/wv' in url:tvv dvcvcdcvx
+                    Show = f"__**-┈━═.•°𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️°•.═━┈-**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
