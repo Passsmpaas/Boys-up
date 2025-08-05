@@ -380,7 +380,7 @@ async def start(bot, m: Message):
             f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
             f"├─⪼ 😶‍🌫️ Gems मिटाए 🤯\n"
             f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
-            f"If you face any problem contact -  [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
@@ -407,7 +407,7 @@ async def start(bot, m: Message):
            f"┣⪼ 💡 To Download Videos:\n"
            f"┃  ├─⪼ 🌟 Purchase Premium Plan\n"
            f"┃  ├─⪼ 📞 Contact Admin\n"
-           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n"
+           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️\n"
            f"┃\n"
            f"┣⪼ ✨ Benefits:\n"
            f"┃  ├─⪼ 🚀 Instant Downloads\n"
@@ -447,7 +447,7 @@ async def id_command(client, message: Message):
            f"┣⪼ 💡 To Download Videos:\n"
            f"┃  ├─⪼ 🌟 Purchase Premium Plan\n"
            f"┃  ├─⪼ 📞 Contact Admin\n"
-           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n"
+           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️\n"
            f"┃\n"
            f"┣⪼ ✨ Benefits:\n"
            f"┃  ├─⪼ 🚀 Instant Downloads\n"
@@ -490,7 +490,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 💠[𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️]()💠\n"
+        f" 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
@@ -514,7 +514,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
         f"┣⪼ /addauth xxxx -Add User telegram number\n"
         f"┣⪼/addauth xxxx -📱whatsapp 📞number\n"
-        f"┣⪼🤖 B0T OWNER ━➣ [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️](https://t.me/Strangerboy27_bot_strangerboy)\n"
+        f"┣⪼🤖 B0T OWNER ━➣ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️\n"
         f"┣⪼ /rmauth xxxx – Remove User ID\n"  
         f"┣⪼ /users – Total User List\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
@@ -525,7 +525,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼• Supports batch processing\n\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️]() 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️ 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -741,13 +741,14 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™❤️°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}]\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}]\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™ zip ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}]\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™ pic ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}]\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™ mp3 ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}]\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ 𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™ HTML ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}]\n'
-                  
+                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n\n🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__Click Here to Watch Video__</a>\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mp4\n\n\n🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__Click Here to Watch Video__</a>\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n\n🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__Click Here to Watch Video__</a>\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                cimg = f'**[📑] 𝗜𝗺𝗴_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.ᴍʀꜱᴛʀᴀɴɢᴇʀ™.jpg\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                cczip = f'**[📑] 𝗣𝗱𝗳_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.ᴍʀꜱᴛʀᴀɴɢᴇʀ™.zip\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                cc1 = f'**[📑] 𝗣𝗱𝗳_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
