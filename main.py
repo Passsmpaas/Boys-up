@@ -741,13 +741,13 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f"╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄Title :**{name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔖Batch :**{'b_name'}\n\n**📥 Extracted By :** {CR}"
-                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n\n🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__Click Here to Watch Video__</a>\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
-                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mp4\n\n\n🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__Click Here to Watch Video__</a>\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
-                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.({res}).ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n\n🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__Click Here to Watch Video__</a>\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
-                cimg = f'**[📑] 𝗜𝗺𝗴_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.ᴍʀꜱᴛʀᴀɴɢᴇʀ™.jpg\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
-                cczip = f'**[📑] 𝗣𝗱𝗳_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.ᴍʀꜱᴛʀᴀɴɢᴇʀ™.zip\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
-                cc1 = f'**[📑] 𝗣𝗱𝗳_𝗜𝗱 : {str(count).zfill(3)}.\n\n\n📄𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲 ➤ {name1}.ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n\n<pre><code>📂𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲 ➤ {b_name}</code></pre>\n\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  {CR}**'
+                cc = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
+                #cpw = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔗Video Url :** <a href="{url}">__Click Here to Watch Video__</a>\n\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
+                #cyt = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mp4\n\n**🔗 Video Url :** <a href="{url}">__Click Here to Watch Video__</a>\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cpvod = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔗Video Url :** <a href="{url}">__Click Here to Watch Video__</a>\n\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cimg = f'╭━━━━━━━━━━━╮\n**📁 IMAGE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.jpg\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cczip = f'╭━━━━━━━━━━━╮\n**📁 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.zip\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cc1 = f'╭━━━━━━━━━━━╮\n**📁 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title :**{name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n**🔖 Batch :**`{b_name}`\n\n**📥 Extracted By :** {CR}'
                 
                 if "drive" in url:
                     try:
@@ -778,9 +778,9 @@ async def txt_handler(bot: Client, m: Message):
                                     with open(f'{name}.pdf', 'wb') as file:
                                         file.write(response.content)
                                     await asyncio.sleep(retry_delay)  # Optional, to prevent spamming
-                                    copy = await bot.send_document(chat_id=channel_id, document=f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf', caption=cc1)
+                                    copy = await bot.send_document(chat_id=channel_id, document=f'{name}.pdf', caption=cc1)
                                     count += 1
-                                    os.remove(f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf')
+                                    os.remove(f'{name}.pdf')
                                     success = True
                                     break  # Exit the retry loop if successful
                                 else:
@@ -802,7 +802,7 @@ async def txt_handler(bot: Client, m: Message):
                             os.system(download_cmd)
                             copy = await bot.send_document(chat_id=channel_id, document=f'{name}.pdf', caption=cc1)
                             count += 1
-                            os.remove(f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf')
+                            os.remove(f'{name}.pdf')
                         except FloodWait as e:
                             await m.reply_text(str(e))
                             time.sleep(e.x)
@@ -813,7 +813,7 @@ async def txt_handler(bot: Client, m: Message):
                         await helper.pdf_download(f"{api_url}utkash-ws?url={url}&authorization={api_token}",f"{name}.html")
                         time.sleep(1)
                         await bot.send_document(chat_id=channel_id, document=f"{name}.html", caption=cchtml)
-                        os.remove(f'{name}ᴍʀꜱᴛʀᴀɴɢᴇʀ™.html')
+                        os.remove(f'{name}.html')
                         count += 1
                     except FloodWait as e:
                         await m.reply_text(str(e))
