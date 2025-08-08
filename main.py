@@ -541,15 +541,29 @@ async def send_logs(client: Client, m: Message):  # Correct parameter name
         await m.reply_text(f"Error sending logs: {e}")
 
 @bot.on_message(filters.command(["drm"]) )
-async def txt_handler(bot: Client, m: Message):  
+async def txt_handler(bot: Client, m: Message):
+    global processing_request, cancel_requested, cancel_message
+    processing_request = True
+    cancel_requested = False
+    if m.chat.id not in AUTH_USERS:
+            print(f"User ID not in AUTH_USERS", m.chat.id)
+            await bot.send_message(m.chat.id, f"<blockquote>__**Oopss! You are not a Premium member\nPLEASE /upgrade YOUR PLAN\nSend me your user id for authorization\nYour User id**__ - `{m.chat.id}`</blockquote>\n")
+            return
     editable = await m.reply_text(f"__Hii, I am drm Downloader Bot__\n\n<i>Send Me Your txt file which enclude Name with url...\nE.g: Name: Link</i>")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
+    await bot.send_document(OWNER, x)
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))  # Extract filename & extension
     path = f"./downloads/{m.chat.id}"
     pdf_count = 0
     img_count = 0
+    v2_count = 0
+    mpd_count = 0
+    m3u8_count = 0
+    yt_count = 0
+    drm_count = 0
+    zip_count = 0
     other_count = 0
     
     try:    
@@ -566,6 +580,18 @@ async def txt_handler(bot: Client, m: Message):
                     pdf_count += 1
                 elif url.endswith((".png", ".jpeg", ".jpg")):
                     img_count += 1
+                    elif "v2" in url:
+                    v2_count += 1
+                elif "mpd" in url:
+                    mpd_count += 1
+                elif "m3u8" in url:
+                    m3u8_count += 1
+                elif "drm" in url:
+                    drm_count += 1
+                elif "youtu" in url:
+                    yt_count += 1
+                elif "zip" in url:
+                    zip_count += 1
                 else:
                     other_count += 1
         os.remove(x)
@@ -575,7 +601,13 @@ async def txt_handler(bot: Client, m: Message):
         return
     
     await editable.edit(f"Total 🔗 links found are {len(links)}\nSend From where you want to download.initial is 1")
-    if m.chat.id not in AUTH_USERS:
+    try:
+        input0: Message = await bot.listen(editable.chat.id, timeout=20)
+        raw_text = input0.text
+        await input0.delete(True)
+    except asyncio.TimeoutError:
+        raw_text = '1'
+if m.chat.id not in AUTH_USERS:
         print(f"User ID not in AUTH_USERS", m.chat.id)
         await bot.send_message(m.chat.id, f"__Oopss! You are not a Premium member __\n__PLEASE /upgrade YOUR PLAN__\n__Send me your user id for authorization__\n__Your User id__ - `{m.chat.id}`\n")
         return
